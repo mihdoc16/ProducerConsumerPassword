@@ -9,15 +9,6 @@ package htl.mihalic.producerconsumerpassword;
  *
  * @author Dominik
  */
-public class Password {
-    private String password;
-
-    public Password(String password) {
-        this.password = password;
-    }
+public class Main {
     
-    public boolean check(String test){
-        return password.equals(test);
-    }
-
 }
